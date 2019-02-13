@@ -27,6 +27,10 @@ Route::get('/investigadores', function () {
     return view('investigadores');
 });
 
+Route::get('/eventos', function () {
+    return view('eventos');
+});
+
 Route::get('/contacto', function () {
     return view('contacto');
 });

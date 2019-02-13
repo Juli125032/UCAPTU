@@ -41,10 +41,10 @@
                     </li>
                 </ul>
             </li>
-            <li><a href='#'>Alianzas</a></li>
-            <li><a href='#'>Investigadores</a></li>
-            <li><a href='#'>Eventos</a></li>
-            <li><a href='#'>Contacto</a></li>
+            <li><a href='{{ url('/alianzas') }}'>Alianzas</a></li>
+            <li><a href='{{ url('/investigadores') }}'>Investigadores</a></li>
+            <li><a href='{{ url('/eventos') }}'>Eventos</a></li>
+            <li><a href='{{ url('/contacto') }}'>Contacto</a></li>
         </ul>
     </nav>
 
